@@ -77,7 +77,7 @@ For the **homework** (not graded, but is necessary to finish the final proejct),
 
 <figure>
     <p align='center'>
-        <img src="../web/assets/models_nerfacto_pipeline-light.png" style="auto;">
+        <img src="assets/models_nerfacto_pipeline-light.png" style="auto;">
     </p>
     <figcaption align='center'>Method Pipeline of the NeRFacto Algorithm. Please pay attention to the "Appearance Embedding" module since it handles the apperance changes in in-the-wild images.</figcaption>
 </figure>
@@ -96,7 +96,7 @@ ns-train nerfacto --data duck_dataset
 If everything goes well, you should see something similar to this in your console:
 <figure>
     <p align='center'>
-        <img src="../web/assets/training.jpg" style="width: auto;">
+        <img src="assets/training.jpg" style="width: auto;">
     </p>
     <figcaption align='center'>Screenshot of the raining process.</figcaption>
 </figure>
@@ -104,7 +104,7 @@ If everything goes well, you should see something similar to this in your consol
 If you open up the link, you should see your model rendering something like this:
 <figure>
     <p align='center'>
-        <img src="../web/assets/viser.jpg" style="width: auto;">
+        <img src="assets/viser.jpg" style="width: auto;">
     </p>
     <figcaption align='center'>Screenshot of the nerfstudio viewer.</figcaption>
 </figure>
@@ -179,7 +179,7 @@ python eval.py --load-config outputs/.../config.yml
 After a suceessfull submission, you should see a panel of submission summary:
 <figure>
     <p align='center'>
-        <img src="../web/assets/submit.jpg" style="auto;">
+        <img src="assets/submit.jpg" style="auto;">
     </p>
     <figcaption align='center'>Submission summary.</figcaption>
 </figure>
